@@ -5,7 +5,6 @@ import { users } from "../db/schema";
 import { db } from "../db";
 import { eq } from "drizzle-orm";
 import { asyncHandler } from "../utils/asyncHandler";
-import  Omit  from 'typescript';
 
 type UserType = typeof users.$inferSelect;
 
